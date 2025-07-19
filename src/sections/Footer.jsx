@@ -15,31 +15,31 @@ function Footer() {
                   via-neutral-700 to-transparent h-[1px] w-full"
       />
       <div className="flex gap-2">
-        <p>
+        <p className="cursor-pointer">
           Terms & Conditions
         </p>
         <p>|</p>
-        <p>
+        <p className="cursor-pointer">
           Privacy Policy
         </p>
       </div>
       <div className="flex gap-5 text-white">
-        <a 
+        {/* <a 
           href="https://www.instagram.com/roccotaccogna/"
           target="_blank"
         >
           <FaInstagram 
             className="w-7 h-7"
           />
-        </a>
-        <a 
+        </a> */}
+        {/* <a 
           href="https://www.linkedin.com/in/rocco-taccogna-39aaa7263/"
           target="_blank"
         >
           <FaLinkedin 
             className="w-7 h-7"
           />
-        </a>
+        </a> */}
         <a 
           href="https://wa.me/393462404139"
           target="_blank"

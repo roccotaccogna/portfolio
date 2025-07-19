@@ -73,8 +73,8 @@ function Contact() {
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
-            <label htmlFor="name" className="feild-label">
-              Nome Completo
+            <label htmlFor="name" className="field-label">
+              Nome e Cognome
             </label>
             <input
               id="name"
@@ -88,7 +88,7 @@ function Contact() {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="email" className="feild-label">
+            <label htmlFor="email" className="field-label">
               Email
             </label>
             <input
@@ -103,7 +103,7 @@ function Contact() {
             />
           </div>
           <div className="mb-5">
-            <label htmlFor="message" className="feild-label">
+            <label htmlFor="message" className="field-label">
               Messaggio
             </label>
             <textarea

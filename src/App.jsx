@@ -8,7 +8,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
-import Testimonial from "./sections/Testimonial";
+// import Testimonial from "./sections/Testimonial";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
 
@@ -44,7 +44,7 @@ function App() {
           <div id="about"><About /></div>
           <div id="work"><Projects /></div>
           <Experience />
-          <Testimonial />
+          {/* <Testimonial /> */}
           <div id="contact"><Contact /></div>
           <Footer />
         </div>

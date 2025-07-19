@@ -35,7 +35,7 @@ function About() {
           </div>
           <div
             className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 
-                       sm:h-1/3 bg-gradient-to-t from-indigo"     
+                       sm:h-1/3 bg-gradient-to-t from-teal-950"     
           />
         </div>
         {/* GRID 2 */}
@@ -44,8 +44,8 @@ function About() {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-300">
-              IL CODICE È ARTE
+            <p className="flex items-end text-4xl text-gray-300">
+              CODICE È ARTE
             </p>
             {/* <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
