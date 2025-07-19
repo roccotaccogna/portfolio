@@ -25,8 +25,8 @@ function About() {
                        md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-            <p className="headtext">
-              Ciao, Siamo ValRoc
+            <p className="mt-2 mb-2 text-2xl">
+              VALROC
             </p>
             <p className="subtext">
               Negli ultimi 2 anni, abbiamo sviluppato le giuste competenze frontend e backend per
@@ -44,25 +44,10 @@ function About() {
             ref={grid2Container}
             className="flex items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-5xl text-gray-500">
-              CODICE È ARTE
+            <p className="flex items-end text-5xl text-gray-300">
+              IL CODICE È ARTE
             </p>
-            <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
-              text="AGILE"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
-              text="Design Principles"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
-              text="Design Patterns"
-              containerRef={grid2Container}
-            />
-            <Card
+            {/* <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
               image="assets/logos/react.png"
               containerRef={grid2Container}
@@ -76,7 +61,7 @@ function About() {
               style={{ rotate: "-45deg", top: "5%", left: "10%" }}
               image="assets/logos/js.png"
               containerRef={grid2Container}
-            />
+            /> */}
           </div>
         </div>
         {/* GRID 3 */}
@@ -90,7 +75,7 @@ function About() {
               a lavorare da remoto in tutto il mondo.
             </p>
           </div>
-          <figure className="absolute left-[30%] top-10%]">
+          <figure className="absolute left-[30%] top-[20%]">
             <Globe />
           </figure>
         </div>

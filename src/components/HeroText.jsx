@@ -35,6 +35,15 @@ function HeroText() {
                     2 Developers <br/> che si dedicano alla <br/> 
                     creazione di
                 </motion.p>
+                <motion.p 
+                    className="text-4xl font-medium text-neutral-300"
+                    variants={variants}
+                    initial="hidden"
+                    animate="visible"
+                    transition={{ delay: 0.8 }}
+                >
+                    Soluzioni Web
+                </motion.p>
                 {/* ANIMATIONS */}
                 <motion.div
                     variants={variants}
@@ -47,16 +56,6 @@ function HeroText() {
                         className="font-black text-white text-8xl"
                     />
                 </motion.div>
-
-                <motion.p 
-                    className="text-4xl font-medium text-neutral-300"
-                    variants={variants}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 0.8 }}
-                >
-                    Soluzioni Web
-                </motion.p>
             </div>
         </div>
         {/* MOBILE BREAKPOINT */}
@@ -80,6 +79,15 @@ function HeroText() {
                 >
                     Costruendo
                 </motion.p>
+                <motion.p 
+                    className="text-4xl font-black text-neutral-300"
+                    variants={variants}
+                    initial="hidden"
+                    animate="visible"
+                    transition={{ delay: 0.8 }}
+                >
+                    Applicazioni Web
+                </motion.p>
                 <motion.div
                     variants={variants}
                     initial="hidden"
@@ -91,15 +99,6 @@ function HeroText() {
                         className="text-white font-bold text-7xl"
                     />
                 </motion.div>
-                <motion.p 
-                    className="text-4xl font-black text-neutral-300"
-                    variants={variants}
-                    initial="hidden"
-                    animate="visible"
-                    transition={{ delay: 0.8 }}
-                >
-                    Applicazioni Web
-                </motion.p>
             </div>
         </div>
     </div>
