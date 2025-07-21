@@ -1,10 +1,25 @@
+import { useEffect } from "react";
 import { 
   FaInstagram, 
   FaLinkedin,
   FaWhatsapp 
 } from "react-icons/fa";
 
+
+
 function Footer() {
+  
+  useEffect(() => {
+    // Verifica se lo script esiste già per evitare duplicati
+    if (!document.getElementById('iubenda-script')) {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.iubenda.com/iubenda.js';
+      s.id = 'iubenda-script';
+      s.async = true;
+      document.body.appendChild(s);
+    }
+  }, []);
+
   return (
     <section 
       className="flex flex-wrap items-center justify-between 
@@ -15,13 +30,27 @@ function Footer() {
                   via-neutral-700 to-transparent h-[1px] w-full"
       />
       <div className="flex gap-2">
-        <p className="cursor-pointer">
-          Terms & Conditions
-        </p>
+        {/* COOKIE POLICY */}
+        <a
+          href="https://www.iubenda.com/privacy-policy/17998718/cookie-policy"
+          className="iubenda-black iubenda-noiframe iubenda-embed"
+          title="Cookie Policy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Cookie Policy
+        </a>
         <p>|</p>
-        <p className="cursor-pointer">
+        {/* PRIVACY POLICY */}
+        <a
+          href="https://www.iubenda.com/privacy-policy/17998718"
+          className="iubenda-black iubenda-noiframe iubenda-embed"
+          title="Privacy Policy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Privacy Policy
-        </p>
+        </a>
       </div>
       <div className="flex gap-5 text-white">
         {/* <a 

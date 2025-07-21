@@ -40,6 +40,44 @@ function Hero() {
             <Rig />
           </Suspense> 
         </Canvas>
+        {/* CC BY 4.0 */}
+        <div className="flex justify-end text-xs mt-[-6rem] mr-4 relative z-10 pointer-events-auto">
+        <div className="flex flex-col">
+          <h1 className="text-neutral-400">
+            Modello 3D “Tenhun Falling Spaceman” di :
+          </h1>
+          <a 
+            href="https://sketchfab.com/wallmasterr" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+            >
+              Wallmasterr
+            </a> 
+            <h1 className="text-neutral-400">
+              basato su design di :
+            </h1>
+              <a 
+                href="https://www.tenhundredart.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+                >
+                  Tenhun
+                </a>
+                <h1 className="text-neutral-400">
+                 Licenza: 
+                </h1>
+                <a 
+                  href="https://creativecommons.org/licenses/by/4.0/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="cursor-pointer"
+                >
+                    CC BY 4.0
+                </a>
+        </div>
+        </div>
       </figure>
     </section>
   )

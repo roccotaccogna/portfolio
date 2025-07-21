@@ -149,15 +149,15 @@ export const myProjects = [
 ];
 
 export const experiences = [
-    {
-        title: "Frontend Developer",
-        job: "App & Mobile Projects",
-        date: "2022-2024",
-        contents: [
-            "Sviluppare interfacce utente interattive e responsive utilizzando React per il web e React Native per applicazioni mobile.",
-            "Gestire layout, navigazione e animazioni, garantendo un’esperienza utente fluida e coerente."
-        ]
-    },
+    // {
+    //     title: "Frontend Developer",
+    //     job: "App & Mobile Projects",
+    //     date: "2022-2024",
+    //     contents: [
+    //         "Sviluppare interfacce utente interattive e responsive utilizzando React per il web e React Native per applicazioni mobile.",
+    //         "Gestire layout, navigazione e animazioni, garantendo un’esperienza utente fluida e coerente."
+    //     ]
+    // },
     {
         title: "Freelance Developers",
         job: "Lavoratori autonomi",
