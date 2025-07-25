@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import { Globe } from "../components/Globe";
 import EmailButton from "../components/EmailButton";
 import Frameworks from "../components/Frameworks";
+import { LampDemo } from "../components/LampDemo";
 
 function About() {
   const grid2Container = useRef();
@@ -39,14 +40,15 @@ function About() {
           />
         </div>
         {/* GRID 2 */}
-        <div className="grid-default-color grid-2">
+        <div className="grid-2 rounded-2xl">
           <div
             ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
+            className="flex pt-52 items-center justify-center w-full h-full"
           >
-            <p className="flex items-end text-4xl text-gray-300">
+            <LampDemo />
+            {/* <p className="flex items-end text-4xl text-gray-300">
               CODICE È ARTE
-            </p>
+            </p> */}
             {/* <Card
               style={{ rotate: "30deg", top: "70%", left: "70%" }}
               image="assets/logos/react.png"
